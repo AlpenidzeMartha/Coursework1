@@ -47,6 +47,19 @@
             <div v-else>
                 <h2>Shopping Cart</h2>
 
+                <h3>Checkout</h3>
+
+                <p>
+                    <strong>First Name:</strong>
+                    <!-- This input field is bound to 'Name' in the 'order' object -->
+                    <input type = "text" v-on:keypress ="isLetter($event)" v-model.trim="order.name" ref="input"/>
+                </p>
+                <p>
+                    <strong>Phone Number: </strong>
+                    <!-- This input field is bound to 'Phone Number' in the 'order' object -->
+                    <input type="number" v:on:keypress="NumberOnly" v-model.trim="order.number" ref="input" />
+                </p>
+
             
             </div>
         </main>
