@@ -60,7 +60,7 @@
                     <input type="number" v:on:keypress="NumberOnly" v-model.trim="order.number" ref="input" />
                 </p>
 
-                
+
                 <button v-on:click="submitForm">Checkout</button>
 
             
@@ -93,6 +93,9 @@
                 showCheckout() {
                     // console.log(this.showlesson);
                     this.showlesson = this.showlesson ? false : true;
+                },
+                submitForm() {
+                    alert('Order submitted!')
                 },
                 canAddToCart(lesson) {
                     return lesson.availablePlaces > this.cartCount(lesson.id);
