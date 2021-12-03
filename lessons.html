@@ -30,7 +30,7 @@
                     <p>Available stock: {{lesson.availablePlaces -cartCount(lesson.id) }}</p>
 
 
-                    <button v-on:click='addToCart(lesson)' v-if='canAddToCart(lesson)'>Add to cart</button>
+                    <button style="background:red; font-family:Arial, Helvetica, sans-serif; font-size: 22px;" v-on:click='addToCart(lesson)' v-if='canAddToCart(lesson)'>Add to cart</button>
 
                     <button disabled="disabled" v-else>Add to cart</button>
 
@@ -38,7 +38,7 @@
                     <span v-else-if="lesson.availablePlaces - cartCount(lesson.id) < 5">
                         Only {{lesson.availablePlaces - cartCount(lesson.id)}} left!
                     </span>
-                    <span v-else>Buy now!</span>
+                    <span v-else>Order Now!</span>
 
         
                 </div>
