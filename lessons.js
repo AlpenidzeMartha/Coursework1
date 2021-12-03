@@ -5,7 +5,7 @@ let lessons =
         "subject": "Math",
         "location": "London",
         "price": 200,
-        "image": "math.png",
+        "image": "images/math.png",
         "availablePlaces": 5  
     },
     {
@@ -13,7 +13,7 @@ let lessons =
         "subject": "English",
         "location": "Bristol",
         "price": 100,
-        "image": "eng.jpg",
+        "image": "images/eng.jpg",
         "availablePlaces": 5
         },
     {
@@ -21,7 +21,7 @@ let lessons =
         "subject": "Music",
         "location": "Liverpool",
         "price": 150,
-        "image": "music.jpg",
+        "image": "images/music.jpg",
         "availablePlaces": 5
     },
     {
@@ -29,7 +29,7 @@ let lessons =
         "subject": "Geography",
         "location": "Birmingham",
         "price": 100,
-        "image": "geo.jpg",
+        "image": "images/geo.jpg",
         "availablePlaces": 5
         },
     {
@@ -37,7 +37,7 @@ let lessons =
         "subject": "Chemistry",
         "location": "Cambridge",
         "price": 200,
-        "image": "chem.png",
+        "image": "images/chem.png",
         "availablePlaces": 5
     },
     {
@@ -45,7 +45,7 @@ let lessons =
         "subject": "Physics",
         "location": "Oxford",
         "price": 200,
-        "image": "phy.png",
+        "image": "images/phy.png",
         "availablePlaces": 5
     },
     {
@@ -53,7 +53,7 @@ let lessons =
         "subject": "Biology",
         "location": "Leeds",
         "price": 200,
-        "image": "bio.png",
+        "image": "images/bio.png",
         "availablePlaces": 5
         },
     {
@@ -61,7 +61,7 @@ let lessons =
         "subject": "Literature",
         "location": "London",
         "price": 100,
-        "image": "lit.png",
+        "image": "images/lit.png",
         "availablePlaces": 5
     },
     {
@@ -69,7 +69,7 @@ let lessons =
         "subject": "History",
         "location": "Sheffield",
         "price": 150,
-        "image": "history.jpg",
+        "image": "images/history.jpg",
         "availablePlaces": 5
         },
     {
@@ -77,7 +77,7 @@ let lessons =
         "subject": "Physical Education",
         "location": "Liverpool",
         "price": 100,
-        "image": "PE.png",
+        "image": "images/PE.png",
         "availablePlaces": 5
     }
     
